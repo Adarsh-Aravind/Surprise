@@ -129,3 +129,4 @@ function createFloatingLoveElements(count) {
 // --- START THE GAME ---
 createBoard();
 createFloatingLoveElements(15);
+
