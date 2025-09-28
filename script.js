@@ -33,7 +33,7 @@ function createBoard() {
         card.dataset.name = imageName;
 
         card.innerHTML = `
-            <img class="front-face" src="images/${imageName}.jpg" alt="${imageName}">
+            <img class="front-face" src="Images/${imageName}.jpg" alt="${imageName}">
             <div class="back-face">?</div>
         `;
 
@@ -129,4 +129,5 @@ function createFloatingLoveElements(count) {
 // --- START THE GAME ---
 createBoard();
 createFloatingLoveElements(15);
+
 
